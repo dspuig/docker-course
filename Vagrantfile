@@ -1,6 +1,6 @@
 Vagrant.configure("2") do |config|
   config.vm.define "docker" do |host|
-    host.vm.box = "ubuntu/trusty64"
+    host.vm.box = "ubuntu/bionic64"
     host.vm.hostname = "docker"
     
     for i in 10000..10010
